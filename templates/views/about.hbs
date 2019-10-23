@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>About</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This application is build in the back-end by using two APIs which are:
+            <ul>
+                <li>
+                    MapBox API that takes a location as a city for example and return the longtidue and the latitude of this location.
+                </li>
+                <li>
+                    DarkSky API that takes the longitute and the latitude of a location and return the forecast data for this location.
+                </li>
+            </ul>
+        </p>
+    </div>
+    
+    {{>footer}}
+</body>
+
+</html>
